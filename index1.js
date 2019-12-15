@@ -9,6 +9,7 @@ rtm.on('message', (message) => {
   const { channel } = message;
   const { text } = message;
   console.log(channel);
+  console.log(channel);
   if (text == '안녕') {
     rtm.sendMessage('헬로', channel);
   } else {

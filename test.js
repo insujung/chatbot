@@ -69,5 +69,6 @@ rtm.on('message', (message) => {
     }
   } else {
     console.log('tuser가 일치하지 않습니다.');
+    console.log('test');
   }
 });
