@@ -22,7 +22,9 @@ rtm.on('ready', async () => {
 });
 
 rtm.on('message', (message) => {
-  const { text } = message;
+  const { user } = message;
+  console.log(user);
+	const { text } = message;
   if (message.user == tuser) {
     switch (status) {
     case 1:
